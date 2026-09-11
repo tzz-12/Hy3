@@ -43,7 +43,7 @@ Hy3 以 **5 类角色提示**（fact / design / expression_safety / review / arb
 |---|---|
 | 全程通过 API 调用 Hy3，不训练 / 微调 / 本地部署 | 所有语义判定经 Hy3 API；密钥走环境变量，不硬编码 |
 | 至少 1 个可交互前端 | Web 应用：对话式评测界面 + 报告 5 标签页（总览 / 维度详情 / 一致性 / 规则层 / 改进建议）+ 评测说明面板 |
-| 至少跑通 2 个端到端 demo 流程 + ≤2 min 视频 | 3 条流程：① 好样本 PASS ② 公式错误被规则层 0.5 秒拦截 FAIL ③ 伪启发包装被维度 9 判低分；演示视频见独立仓库 [`docs/demo.mp4`](https://github.com/tzz-12/edu-eval-hy3/blob/main/docs/demo.mp4)（98 秒） |
+| 至少跑通 2 个端到端 demo 流程 + ≤2 min 视频 | 3 条流程：① 好样本 PASS ② 公式错误被规则层 0.5 秒拦截 FAIL ③ 伪启发包装被维度 9 判低分；演示视频见独立仓库 [`docs/demo.mp4`](https://github.com/tzz-12/edu-eval-hy3/blob/main/docs/demo.mp4)（94 秒，README 首页内嵌可直接播放） |
 | 项目开源，README 写明 Hy3 角色 | 仓库 public（MIT），README §1.1 专节说明 Hy3 的职责与不负责的部分 |
 | README 记录 AI 协作范围 | README §10「AI 协作说明」按模块记录 WorkBuddy 协作范围 |
 
